@@ -138,3 +138,8 @@ span.highlight {
   /* margin: auto;
   display: block; */
 }
+
+body{
+  padding-left:10px;
+  padding-right:10px;
+}
