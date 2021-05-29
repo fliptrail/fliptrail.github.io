@@ -373,26 +373,83 @@
 
 <!-- Projects -->
 
-                <button style="border:0px transparent; background-color: transparent;outline:none;"type="button" class="collapsible" data-toggle="collapse" data-target="#content-projects" id="projects"><heading>Projects</heading></button>
+                <button style="border:0px transparent; background-color: transparent;outline:none;"type="button" class="collapsible" data-toggle="collapse" data-target="#content-projects" id="projects"><heading>Key Projects</heading></button>
                 <div id="content-projects" class="collapse in">
 
                 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                    <!-- <tr>
+                    <tr>
                         <td style="padding:20px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/covid_explanations.png' width="120">
+                                <img src='images/quantum_nmr_2.png' width="150">
                             </div>
                         </td>
                         <td style="padding:20px;width:75%;vertical-align:top">
-                            <papertitle><big>Constructing and Evaluating an Explainable Model for COVID-19 Diagnosis from Chest X-rays</papertitle></big>
+                            <papertitle><big>Decoding quantum states through nuclear magnetic resonance</papertitle></big>
                             <br>
-                            <p><em>Under review <a href="https://arxiv.org/pdf/2012.10787" target="_blank">[preprint]</a></em></p>
-                            <p>In this paper, our focus is on constructing  models  to  assist  a  clinician  in  the diagnosis of COVID-19 patients in situations where it is easier and cheaper to obtain X-ray data. We propose a new COVIDr dataset with important radiological annotations from a practicing radiologist. We build a deep neuro-symbolic model to diagnose COVID-19 and provide visual and textual explanations, with no significant loss in predictive accuracy compared to an end-to-end model. We find that the radiologist prefers simple representations, both visual and textual to aid in diagnosis.</p>
+                            <p><em><a href="https://github.com/fliptrail/quantum-state-NMR" target="_blank">[code]</a></em></p>
+                            <p>
+                                Machine Learning for Physics. Built a model to predict the coupling parameters associated with nuclei and electrons 
+                                given their time-dependent magnetization curve from a spin-echo NMR experiment. Created a weighted ensemble model comprising of 1. Random Forest over statstical time-series features, 2.  
+                                InceptionTime, and 3. a custom CNN to achieve an R<sup>2</sup> value of 0.992 and 0.997 for predictions on coupling strength and dissipation parameters respectively.
+                            </p>
                         </td>
                     </tr>
 
                     <tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/ad_text_model.png' width="150">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Multi-Modal Detection of Alzheimer's Disease from Speech and Text</papertitle></big>
+                            <br>
+                            <p><em>Under review <a href="https://arxiv.org/abs/2012.00096" target="_blank">[preprint]</a></em></p>
+                            <p>
+                                Reliable detection of the prodromal stages of Alzheimer's disease (AD) remains difficult even today because there is no definitive diagnosis of AD in vivo.
+                                We propose a multimodal deep learning method that utilizes speech and the corresponding transcript simultaneously to detect AD.
+                                We also perform experiments to analyze the model performance when ASR system generated transcripts are used and further perform an essential study of age and gender bias of our model. The proposed method achieves 85.3% 10-fold cross-validation accuracy on the Dementiabank Pitt corpus.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/assem_emu.png' width="150">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Assembler and Emulator for custom machine</papertitle></big>
+                            <br>
+                            <p><em><a href="https://github.com/fliptrail/assembler-emulator" target="_blank">[code]</a></em></p>
+                            <p>
+                                Developed an assembler and an emulator for a custom architecture machine
+                                consisting of 2 registers, 1 program and stack counter, and some select mnemonics using C++.
+                                The assembler can handle comments and data in different numerical bases and can detect multiple errors and warnings in the assembly code as expected.
+                                The emulator loads the object file created from the assembler and can trace machine code and produce the memory dump along with identifying runtime errors.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/ue_multiplayer_game.png' width="150">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Prototype Multiplayer Parkour Video Game</papertitle></big>
+                            <br>
+                            <p><em><a href="https://www.youtube.com/watch?v=Z_01phvH1IM" target="_blank">[YouTube]</a></em></p>
+                            <p>
+                                Created the prototype of a functional multiplayer parkour video game using Unreal Engine 4; along with tutorial videos for it. Used State Machines to control behaviour and animations. It was my attempt to learn about behaviour states and OOPs. Programming Language used - C++.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- <tr>
                         <td style="padding:20px;width:25%;vertical-align:middle">
                             <div class="one">
                                 <img src='images/dem_unc_boost.png' width="120">
